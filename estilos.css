@@ -1,0 +1,77 @@
+/* Quitar espacios que trae el navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Toda la página */
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* PARTE AZUL SUPERIOR */
+header {
+    height: 150px;
+    background-color: #1598e8;
+}
+
+/* PARTE VERDE */
+nav {
+    width: 42%;
+    height: 70px;
+    background-color: #16c43b;
+
+    margin-left: 58%;
+    margin-top: -70px;
+
+    position: relative;
+}
+
+/* PRIMERA SECCIÓN: LOS 3 CUADROS NARANJAS */
+section:first-of-type {
+    height: 230px;
+    background-color: #fff000;
+
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+/* LOS 3 CUADROS */
+section:first-of-type article {
+    flex: 1;
+    background-color: #ff8100;
+}
+
+/* SEGUNDA SECCIÓN */
+section:nth-of-type(2) {
+    height: 270px;
+
+    display: flex;
+    gap: 15px;
+
+    padding: 15px;
+    background-color: white;
+}
+
+/* CUADRO VERDE GRANDE */
+section:nth-of-type(2) article {
+    flex: 4;
+    background-color: #b4d8c2;
+}
+
+/* CUADRO VERDE PEQUEÑO */
+section:nth-of-type(2) aside {
+    flex: 1;
+    background-color: #a8d83f;
+}
+
+/* PARTE AZUL INFERIOR */
+footer {
+    height: 70px;
+    background-color: #1598e8;
+}
